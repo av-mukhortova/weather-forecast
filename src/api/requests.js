@@ -6,7 +6,7 @@ const apiKey = 'd8a8c44c60137d38ed253b333229deff'
 export const makeRequest = ({
   url, method = 'get', data = {}, headers = {}
 }) => axios({
-  url: `${url}&appid=${apiKey}`,
+  url: `${url}&appid=${apiKey}&lang=ru&units=metric`,
   method,
   data,
   baseURL,
